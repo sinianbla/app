@@ -1,0 +1,20 @@
+/**index.wxss**/
+.position {
+  margin: 85rpx;
+  align-items: center;
+}
+
+.picture-avatar {
+  width: 190rpx;
+  height: 280rpx;
+  margin: 2rpx;
+  vertical-align:top;
+}
+
+.selected {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

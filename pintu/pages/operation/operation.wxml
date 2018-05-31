@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="position">
+  	<view wx:for="{{imgs}}" wx:for-index="index" wx:for-item="item" wx:key="pictureId" style="display:inline">
+  		<image id="img_{{index+1}}" src="{{item.url}}" class="picture-avatar" bindtap="bindViewTap" data-index="{{index}}" data-src="{{item.url}}"> </image>
+  	</view>
+     
+  </view>
+</view>
